@@ -21,6 +21,21 @@ $(document).ready(function(){
   });
 });
 
+
+
+$(document).ready(function(){
+
+  $("li").hover(function(){
+    $(this).css("background-color" , "yellow");
+  },
+  function(){
+    $(this).css("background-color" , "inherit");
+  }
+  );
+
+});
+
+
 // $(document).ready(function(){
 //   $(".reset button").click(function(){
 //     $(".test_div").show();
