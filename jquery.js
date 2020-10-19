@@ -35,6 +35,17 @@ $(document).ready(function(){
 
 });
 
+$(document).ready(function(){
+
+  $(".stretch_practice").mouseenter(function(){
+    $(this).css("background-color" , "orange");
+    $(this).animate({
+      height: '100px',
+      width: '40%'
+    });
+  });
+});
+
 
 // $(document).ready(function(){
 //   $(".reset button").click(function(){
